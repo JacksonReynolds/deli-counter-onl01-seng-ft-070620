@@ -19,7 +19,6 @@ def take_a_number(katz_deli, patron)
 end #take_a_number
 
 def now_serving(katz_deli)
-  serving_announcement = ''
   if katz_deli == []
     serving_announcement = "There is nobody waiting to be served!"
   else
