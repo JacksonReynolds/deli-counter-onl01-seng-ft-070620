@@ -11,3 +11,8 @@ def line(katz_deli)
     puts line_announcement
   end #if
 end #line
+
+
+def take_a_number(katz_deli, patron)
+  katz_deli.push(patron)
+end
